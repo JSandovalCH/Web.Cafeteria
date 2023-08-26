@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_video{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    height: 50%;
+    max-width: 60%;
+    display: flex;
+    flex-flow: wrap-reverse;
+}
+
+.container_padre_2{
+    background-color: #775c44;
+}
+
+.video{
+    max-width: 100%;
+    margin: auto;
+    display: inline-block;
+}

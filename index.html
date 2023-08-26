@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BARISTA</title>
+    <link rel="stylesheet" href="css/style_navbar.css">
+    <link rel="stylesheet" href="css/style_footer.css">
+    <link rel="stylesheet" href="css/style_slider.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style_sec-info.css">
+    <link rel="stylesheet" href="css/style_menu.css">
+    <link rel="stylesheet" href="css/style_video.css">
+    <link rel="stylesheet" href="css/style_carousel.css">
+    <link rel="stylesheet" href="css/style_form.css">
+    <link rel="stylesheet" href="css/style_app.css">
+    <link rel="stylesheet" href="css/style_spinner.css">
+</head>
+<body>
+
+    <!--STYLE_NAVBAR-->
+
+    <nav class="menu">
+        <section class="menu__container">
+            <h1 class="menu__logo">BARISTA</h1>
+            <ul class="menu__links">
+                <li class="menu__item">
+                    <a href="../index.html" class="menu__link">HOME</a>
+                </li>
+                <li class="menu__item menu__item--show">
+                    <a href="#about" class="menu__link">About <img src="assets/arrow.svg" class="menu__arrow"></a>
+                    <ul class="menu__nesting">
+                        <li class="menu__inside">
+                            <a href="#galery" class="menu__link menu__link--inside">GALERY</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="#history" class="menu__link menu__link--inside">OUR HISTORY</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu__item  menu__item--show">
+                    <a href="#produ" class="menu__link">MENU<img src="assets/arrow.svg" class="menu__arrow"></a>    
+                    <ul class="menu__nesting">
+                        <li class="menu__inside">
+                            <a href="/frappuccinos.html" class="menu__link menu__link--inside">BEBIDAS</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="/pastries.html" class="menu__link menu__link--inside">ALIMENTOS</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="/boxes.html" class="menu__link menu__link--inside">PACKS Y BOXES</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="/merch.html" class="menu__link menu__link--inside">MERCH Y CAFÉ EN GRANO</a>
+                        </li>
+                    </ul>
+                </li>
+    
+                <li class="menu__item">
+                    <a href="#contact" class="menu__link">Contact</a>
+                </li>
+                <li class="menu__item">
+                    <a href="php/Index.php" class="menu__link">LOGIN</a>
+                </li>
+            </ul>
+
+            <div class="menu__hamburguer">
+                <img src="assets/menu.svg" class="menu__img">
+            </div>
+        </section>
+    </nav>
+
+  <!--STYLE_SLIDER.CSS / SWIPER-BUNDLE.MIN.CSS--> 
+
+    <section class="main swiper mySwiper">
+        <div class="wrapper swiper-wrapper">
+          <div class="slide swiper-slide">
+            <img src="images/img1.jpg" alt="" class="image" />
+            <div class="image-data">
+              <span class="text">Enjoy the finest coffee drinks.</span>
+              <h2>
+                SABOR FRESCO UNICO
+              </h2>
+              <a href="#contact" class="button">Contact Us</a>
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="images/img2.jpg" alt="" class="image" />
+            <div class="image-data">
+              <span class="text">We really like what we do.</span>
+              <h2>
+                EL CAFÉ ES NUESTRO LENGUAJE
+              </h2>
+              <a href="#contact" class="button">Contact Us</a>
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="images/img3.jpg" alt="" class="image" />
+            <div class="image-data">
+              <span class="text">Making Our coffee with lover.</span>
+              <h2>
+                UN LUGAR DE TRANQUILIDAD
+              </h2>
+              <a href="#contact" class="button">Contact Us</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="swiper-button-next nav-btn"></div>
+        <div class="swiper-button-prev nav-btn"></div>
+        <div class="swiper-pagination"></div>
+      </section>
+
+  <!--SECCION_INFORMATIVA-->
+
+  <section class="container_padre" id="about">
+    <center>
+      <h2 class="paragraph" style="color: #e3b58c">CREEMOS EN EL CAFÉ QUE SABE INCREÍBLE</h2>
+    </center>
+        <center>
+          <section class="container_sec-info">
+            <div align = "left">
+              <p class="paragraph_01" style="color: #775c44;">
+                Nosotros horneamos frescos todas las mañanas...
+              </p>
+              <p class="paragraph_02" style="color: #e1e1e1;">
+                Horneamos fresco para nuestros clientes todas las mañanas. El momento en que el olor a café recién tostado flota por las calles…
+                Es el momento en que abrimos nuestras puertas para nuestros queridos clientes y les damos la bienvenida a nuestro Desayuno & Café…
+                Brooklyn's Breakfast & Coffe es amor que no solo saboreas sino que también sientes.
+              </p>
+            </div>
+            <div>
+              <img src="images/img4.jpg" alt="">
+            </div>
+          </section>
+        </center>
+  </section>
+
+  <!--SECCION_MENU-->
+  <center>
+    <h2 class="title" id="produ" style="color: #e3b58c">BEBIDAS</h2>
+  </center> 
+    <section class="container_padre-menu">
+      <div class="container_menu">
+        <picture>
+          <a href="/frappuccinos.html">
+            <img src="images/ULTIMATE_CARAMEL_FRAPP_V3.jpg" alt="">
+          </a>
+        </picture>
+      </div>
+      <div class="container_menu">
+        <picture>
+          <a href="/Escaliente.html">
+            <img src="images/LATTE_MACHIATTO_V3.jpg" alt="">
+          </a>
+        </picture>
+      </div>
+      
+      <div class="container_menu">
+        <picture>
+          <a href="/Esfrio.html">
+            <img src="images/CARAMEL_MACCHIATO_HELADO_V3.jpg" alt="">
+        </picture>
+      </div>
+
+      <div class="container_menu">
+        <picture>
+          <a href="Bcalientes.html">
+            <img src="/CHOCOLATE_CALIENTE_V3.png" alt="">
+        </picture>
+      </div>
+
+
+      <div class="container_menu">
+        <picture>
+          <a href="Bfrias.html">
+            <img src="/STRAWBERRY_GREEN_TEA_V3.png" alt="">
+        </picture>
+      </div>
+
+
+      <div class="container_menu">
+        <picture>
+          <a href="shakenex.html">
+            <img src="images/ICED_AVELLANA_OATMILK_SHAKEN_ESPRESSO_V1.jpg" alt="">
+          </a>
+        </picture>
+      </div>
+    </section>  
+
+  <center>
+    <h2 class="title" style="color: #e3b58c">POSTRES</h2>
+  </center> 
+    <section class="container_padre-menu">
+      <div class="container_menu">
+        <picture>
+          <a href="sandwiches.html">
+            <img src="images/SANDWICH_DE_PAVITA_Y_QUESO_V3.jpg" alt="">
+          </a>
+        </picture>
+      </div>
+
+      <div class="container_menu">
+        <picture>
+          <a href="pastries.html">
+            <img src="images/MUFFIN_DE_NARANJA_Y_CHOCOCHIPS_V3.jpg" alt="">
+          </a>
+        </picture>
+      </div>
+      
+      <div class="container_menu">
+        <picture>
+          <a href="postres.html">
+            <img src="images/CHEESECAKE_DE_CHOCOLATE_V3.jpg" alt="">
+        </picture>
+      </div>
+
+    </section>
+
+  <center>
+    <h2 class="title" style="color: #e3b58c">PACK Y BOXES</h2>
+  </center> 
+    <section class="container_padre-menu">
+      <div class="container_menu">
+        <picture>
+          <a href="/desayunos.html">
+            <img src="images/DESAYUNO_PARA_DOS_V4.jpg" alt="">
+          </a>
+        </picture>
+      </div>
+      <div class="container_menu">
+        <picture>
+          <a href="/boxes.html">
+            <img src="images/PACK_ANTOJOS_V3.jpg" alt="">
+          </a>
+        </picture>
+      </div>
+    </section>
+
+  <center>
+    <h2 class="title" style="color: #e3b58c">MERCH Y CAFÉ EN GRANO</h2>
+  </center> 
+    <section class="container_padre-menu">
+      <div class="container_menu">
+        <picture>
+          <a href="/merch.html">
+            <img src="images/CAFE_PERU_250GR_V2.jpg" alt="" width="245">
+          </a>
+        </picture>
+      </div>
+    </section>
+
+  <!--VIDEO-->
+  <section id = "history">
+    <center>
+      <h2 class="title" id="produ" style="color: #e3b58c">NUESTRA HISTORIA</h2>
+    </center> 
+  </section>
+  <center>
+    <section class="container_padre_2">
+      <div class="container_video">
+        <div>
+          <video class="video" id="video" width="620" src="video/video_01.mp4" type = "video/mp4" controls></video>
+        </div>
+        <div>
+          <p class="paragraph_01" style="color: #181818;">
+            FRESH BEANS
+          </p>
+          <p class="paragraph_02" style="color: #e1e1e1;">
+            Para saber si un café es de buena calidad, es necesario hacer dos tipos de análisis:
+            El análisis de calidad en físico, que se realiza sobre los granos de café secos y trillados.
+            El análisis de calidad en taza, que se realiza sobre la bebida.
+            Si el puntaje final está entre 70 y 80 puntos, se califica como un café de calidad corriente o comercial. 
+            Los cafés de Especialidad tienen entre 80 y 83 puntos. Aquellos que puntúan entre 84 y 89, son calificados como cafés de Especialidad de tipo Ejemplar Regional Plus.
+          </p>
+        </div>
+      </div>
+    </section>
+  </center>
+  
+  <!--STYLE_CAROUSEL-->
+  <section id ="galery">
+    <center>
+      <h2 class="title" id="produ" style="color: #e3b58c">GALERIA</h2>
+    </center> 
+  </section>
+  
+  <section class="carousel-container__main">
+    <div class="carousel">
+      <div class="carousel__nav">
+        <span id="moveLeft" class="carousel__arrow">
+          <svg class="carousel__icon" width = "24" height = "24" viewBox = "0 0 24 24">
+            <path d = "M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+          </svg>
+        </span>
+        <span id="moveRight" class="carousel__arrow">
+          <svg class="carousel__icon" width = "24" height = "24" viewBox = "0 0 24 24">
+            <path d = "M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+          </svg>
+        </span>
+      </div>
+      <div class="carousel-item carousel-item--1">
+        <div class="carousel-item__image"></div>
+        <div class="carousel-item__info">
+          <div class="carousel-item__container">
+            <h2 class="carousel-item__subtitle">Menu - Bebidas</h2>
+            <h1 class="carousel-item__title">Café Americano</h1>
+                <p class="carousel-item__description">
+                  Purgamos el grupo eliminando los restos de la extracción anterior. Colocamos el portafiltros en el grupo y pulsamos el botón inmediatamente, para que el agua circule por la pastilla de café sin que esta se retueste.
+                  Extraeremos el espresso perfecto en unos 25 segundos y 30 ml.
+                  Para preparar un buen americano, necesitamos más agua. Por lo tanto, preparamos una tetera con agua caliente.
+                  Servimos por separado, una taza grande de café junto al agua en una tetera.
+                  Vertemos el agua caliente sobre el espresso, y disfrutamos de nuestro americano.</p>
+            <a href="Escaliente.html" class="carousel-item__btn">Ver Producto</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-item--2">
+        <div class="carousel-item__image"></div>
+        <div class="carousel-item__info">
+          <div class="carousel-item__container">
+            <h2 class="carousel-item__subtitle">Menu - Postres</h2>
+            <h1 class="carousel-item__title">Avellana Caramelo Frappuccino</h1>
+            <p class="carousel-item__description">Sostén un tenedor y un cuchillo, cada uno en la mano que prefieras, y corta un pedazo de croissant cada vez que quieras dar un mordisco. Esta es la forma de comer un croissant que hace menos desastre y te ayuda a mantener las manos limpias.</p>
+            <a href="sandwiches.html" class="carousel-item__btn">Ver Producto</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-item--3">
+        <div class="carousel-item__image"></div>
+        <div class="carousel-item__info">
+          <div class="carousel-item__container">
+            <h2 class="carousel-item__subtitle">Menu - Bebidas</h2>
+            <h1 class="carousel-item__title">Frappuccino</h1>
+            <p class="carousel-item__description">Primero colocamos en una licuadora 250 ml de café cargado, 7 ml de esencia de vainilla, 2 cucharadas de azúcar blanca y 1 cucharada de dulce de leche. Ahora agregamos 250 ml de leche, 8 cubos de hielo y licuamos hasta que los hielos se disuelvan totalmente. Por último luego de realizar el paso anterior colocamos en una copa el licuado, agregamos crema chantillí al gusto, caramelo liquido al gusto y ¡LISTO!</p>
+            <a href="frappuccinos.html" class="carousel-item__btn">Ver Producto</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-item--4">
+        <div class="carousel-item__image"></div>
+        <div class="carousel-item__info">
+          <div class="carousel-item__container">
+            <h2 class="carousel-item__subtitle">Menu - Postres</h2>
+            <h1 class="carousel-item__title">Panqueque de fresa</h1>
+            <p class="carousel-item__description">Mezcla las fresas con 1 cda. del polvo seco de la gelatina. Combina el resto del polvo seco de la gelatina con la harina, el polvo para hornear y la sal. Usa un batidor de varillas para batir bien los huevos, la leche y el aceite en un tazón grande. Incorpora la mezcla de harina. Usa un cucharón para verter el batido, en cantidades de 1/4 taza para cada panqueque, sobre una plancha o una sartén caliente que hayas rociado con aceite en aerosol; cocínalos hasta que burbujeen por arriba y, a continuación, dales vuelta para dorarlos del otro lado. Sírvelos con el jarabe, la mezcla de fresas y la cobertura COOL WHIP.</p>
+            <a href="postres.html" class="carousel-item__btn">Ver Producto</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-item--5">
+        <div class="carousel-item__image"></div>
+        <div class="carousel-item__info">
+          <div class="carousel-item__container">
+            <h2 class="carousel-item__subtitle">Menu - Postres</h2>
+            <h1 class="carousel-item__title">Postre de Chocolate</h1>
+            <p class="carousel-item__description">Servir una taza de leche y agregar las 5 cucharadas de Maizena, mezclar hasta que no queden grumos. Colocar la leche restante junto con el azúcar a fuego lento en una cacerola. Una vez que esté bien caliente, agregamos la preparación anterior de la taza y revolvemos. Cuando esté bien espeso y por hervir, sacarlo del fuego y agregar el chocolate en barra, revolviendo bien hasta que se derrita. Lo mismo si usas el chocolate en polvo. Seguir batiendo (con cuchara de madera) hasta que baje la temperatura. Dejar enfriar y disfrutá un postre apto para celíacos. La cantidad de azúcar y chocolate puede variar a gusto personal.</p>
+            <a href="pastries.html" class="carousel-item__btn">Read the articule</a>
+          </div>
+        </div>
+      </div>
+     </div>
+  </section>
+
+<!--STYLE_FORM-->
+<section id = "contact"> 
+</section>
+
+<section class="container_padre-form">
+  <section class="min-h-screen bg-slate-300">
+    <div class="max-w-3xl mx-auto p-10">
+        <h1 class="text-4xl text-gray-700 pt-32">CONTACTENOS</h1>
+        <div class="bg-white rounded-lg shadow-xl p-10 mt-5">
+            <form id="formulario" class="space-y-3">
+                <div class="flex flex-col space-y-2">
+                    <label for="email" class="font-regular font-medium">Email:</label>
+                    <input id="email" type="email" name="email" placeholder="Email-Empresa: jossandoval.345@gmail.com" class="border border-gray-300 px-3 py-2 rounded-lg"  />
+                </div>
+
+                <div class="flex flex-col space-y-2">
+                    <label for="asunto" class="font-regular font-medium">Asunto:</label>
+                    <input id="asunto" type="text" name="asunto" placeholder="Asunto Email" class="border border-gray-300 px-3 py-2 rounded-lg" />
+                </div>
+
+                <div class="flex flex-col space-y-2">
+                    <label for="mensaje" class="font-regular font-medium">Mensaje:</label>
+                    <textarea id="mensaje" type="text" name="mensaje" placeholder="Mensaje de Email" class="border border-gray-300 px-3 py-2 rounded-lg h-36"></textarea>
+                </div>
+
+                <div id="botones" class="flex gap-5">
+                    <button 
+                        type="submit"
+                        class="flex-1 bg-pink-600 text-white flex justify-center gap-2 items-center p-3 opacity-50"
+                        disabled
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                        </svg>
+                        Enviar
+                    </button>
+
+                    <button 
+                        class="flex-1 bg-gray-800 text-white flex justify-center gap-2 items-center p-3"
+                        type="reset"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0" />
+                        </svg>
+                        Reset
+                    </button>
+                </div>           
+            </form>
+
+            <div id="spinner" class="hidden justify-center mt-10">
+                <div class="sk-chase">
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+</section>
+
+ 
+  <script src="js/app_2.js"></script>
+
+  <script src="js/carousel.js"></script>
+
+  <!--VIDEO_JS-->
+  <script>
+    const $video = document.querySelector('#video')
+    $video.addEventListener('play', ()=>{
+      console.log('se reproduce el video')
+    })
+    $video.addEventListener('pause', () => {
+      console.log('se pausa el video')
+    })
+    const options = {
+      // root: document.querySelector('body'),
+      rootMargin: '0px 0px 0px 0px',
+      threshold: .5,
+    }
+    function callback(entries, observer) {
+      console.log('se llamó al callback')
+      if (entries[0].isIntersecting) {
+        $video.play()
+      } else {
+        $video.pause()
+      }
+    }
+    const observer = new IntersectionObserver(callback, options)
+    observer.observe($video)
+  </script>
+
+  <!-- Swiper JS -->
+    <script src="JS/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+<!--STYLE_FOOTER--> 
+
+<footer class="footer" id="contact">
+    <div class="container">
+     <div class="row">
+       <div class="footer-col">
+         <h4 style="color: #e3b58c">CONTACTO Y ATENCIÓN AL CLIENTE WHATSAPP</h4>
+         <ul>
+           <li><a style="color: #775c44" href="https://www.whatsapp.com/?lang=es">(01)505-0505</a></li>
+           <li><a style="color: #775c44" href="https://www.whatsapp.com/?lang=es">TELÉFONO LIMA: (01)505-0050</a></li>
+           <li><a style="color: #775c44" href="https://www.whatsapp.com/?lang=es">TELÉFONO PROVINCIA: (044)779-009</a></li>
+         </ul>
+       </div>
+       <div class="footer-col">
+         <h4 style="color: #e3b58c">SOBRE NOSOTROS</h4>
+         <ul>
+           <li><a style="color: #775c44" href="#">NUESTRA MISIÓN</a></li>
+           <li><a style="color: #775c44" href="#">TIENDAS, HORARIOS Y ZONA DE COBERTURA</a></li>
+         </ul>
+       </div>
+       <div class="footer-col">
+         <h4 style="color: #e3b58c">POLÍTICAS Y TÉRMINOS DE PRIVACIDAD</h4>
+         <ul>
+           <li><a style="color: #775c44" href="#">POLÍTICAS DE DELIVERY, PICK UP Y AUTOSTARBUCKS</a></li>
+           <li><a style="color: #775c44" href="#">TÉRMINOS Y CONDICIONES DE LA WEB</a></li>
+         </ul>
+       </div>
+       <div class="footer-col">
+         <h4 style="color: #e3b58c">FOLLOW US</h4>
+         <div class="social-links">
+           <a style="color: #775c44" href="https://es-la.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+           <a style="color: #775c44" href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
+           <a style="color: #775c44" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+           <a style="color: #775c44" href="https://pe.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+         </div>
+       </div>
+     </div>
+    </div>
+ </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

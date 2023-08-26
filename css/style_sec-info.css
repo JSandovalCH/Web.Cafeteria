@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_sec-info{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    height: 50%;
+    max-width: 60%;
+    display: flex;
+    flex-flow: wrap-reverse;
+}
+
+.container_padre{
+    background-color: #0d0d0d;
+}
+
+.paragraph{
+    max-width: 600px;
+    font-size: 38px;
+    padding-top: 60px;
+    font-family: 'Arial Black';
+}
+
+.paragraph_01{
+    font-family: 'Arial Black';
+    font-size: 30px;
+    padding-bottom: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.paragraph_02{
+    padding-bottom: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.container_sec-info img{
+    margin: auto;
+    width: 500px;
+    display: inline-block;
+  	max-width: 100%;
+}

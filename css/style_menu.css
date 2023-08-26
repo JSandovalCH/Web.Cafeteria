@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    font-size: 38px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #0d0d0d;
+    font-family: 'Arial Black';
+}
+
+.container_padre-menu{
+    justify-content: center;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0d0d0d;
+}
+
+.container_menu{
+    display: inline-block;
+    max-width: 50%;
+    padding-right: 15px;
+    padding-left: 15px; 
+    margin-bottom: 10px;
+}
+
+.container_menu a img{
+    margin: auto;
+    width: 100%;
+}
